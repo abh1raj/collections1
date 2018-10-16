@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 public class csvfile {
 
 	public static void main(String[] args) throws IOException {
-		File f1 = new File("E:\\Users\\get it\\Desktop\\abc.xls");
+		File f1 = new File("E:\\Users\\get it\\Desktop\\abhi.xls");
 		
 		PrintWriter f2=new PrintWriter(f1);
 		StringBuilder s=new StringBuilder();
@@ -16,17 +16,17 @@ public class csvfile {
         s.append('\n');
 		    s.append("1");
 		    s.append('\t');
-			s.append("E:\\Users\\get it\\Desktop\\abc.xls");
+			s.append("E:\\Users\\get it\\Desktop\\abhi.xls");
             s.append("axe.xls");
             s.append("\n");
             s.append("2");
 		    s.append('\t');
-			s.append("E:\\Users\\get it\\Desktop\\abc.xls");
+			s.append("E:\\Users\\get it\\Desktop\\abhi.xls");
             s.append("ax.xls");
             s.append("\n");
             s.append("3");
 		    s.append('\t');
-			s.append("E:\\Users\\get it\\Desktop\\abc.xls");
+			s.append("E:\\Users\\get it\\Desktop\\abhi.xls");
             s.append("a.xls");
             s.append("\n");
             f2.write(s.toString());
